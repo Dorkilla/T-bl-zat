@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box; 
+
+}
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+	border: 2px solid gray;
+}
+tr:nth-child(even) {
+    background-color: rgba(224, 221, 221, 0.854);
+    border-bottom: 1px solid grey;
+}
+  tr:nth-child(odd) {
+    background-color: white;
+}
+td, th {
+    padding:8px;
+    text-align:left;
+    
+}
+   
+  
